@@ -18,6 +18,7 @@ def test_function_should_return_valid_boolean_value(
 ) -> None:
     assert is_isogram(word) == expected_result
 
+
 @pytest.mark.parametrize(
     "word",
     [
